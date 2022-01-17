@@ -6,7 +6,7 @@
   "files": ["build"],
   "scripts": {
     "install": "cd root && npm install",
-    "deploy": "cd root && npm install && npm run build-- --profile && mv -f ./build ../"
+    "deploy": "cd root && npm install && npm run build -- --profile && mv -f ./build ../"
   },
   "repository": {
     "type": "git",
