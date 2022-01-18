@@ -1,8 +1,20 @@
 {
-  "name": "app-11",
+  "name": "app-1",
   "private": true,
   "version": "0.0.1",
   "description": "Stencil App Starter",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/lighthouse-ui-core-stencil/lighthouse-ui-core-stencil.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
   "scripts": {
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
