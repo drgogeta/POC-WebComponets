@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "files": ["build"],
   "scripts": {
-    "install": "cd root && npm install",
-    "deploy": "cd root && npm install && npm run build -- --profile && mv -f ./build ../"
+    "install": "cd container && npm install",
+    "deploy": "cd container && npm install && npm run build -- --profile && mv -f ./build ../"
   },
   "repository": {
     "type": "git",
