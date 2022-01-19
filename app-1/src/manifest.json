@@ -1,6 +1,6 @@
 {
-  "name": "Stencil Starter",
-  "short_name": "Stencil",
+  "name": "App 1",
+  "short_name": "App",
   "start_url": "/",
   "display": "standalone",
   "icons": [{
